@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+span {
+  text-decoration: underline;
+}
+
+h1 {
+  margin-top: 50px auto 0 auto;
+  color: crimson;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: crimson;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: crimson;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: lightgrey;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+p {
+  color: firebrick;
+}
+
+a {
+  color: crimson;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+.top-section {
+  background-color: lightpink;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-section {
+  margin:100px 0;
+}
+.bottom-section {
+  background-color: hotpink;
+  padding: 50px 0 20px;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.cloud2 {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.boy {
+  height: 200px;
+  width: 200px;
+}
+
+.piano {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.drawing {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-msg {
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.btn {
+  background: #ff0a78;
+  background-image: -webkit-linear-gradient(top, #ff0a78, #b31964);
+  background-image: -moz-linear-gradient(top, #ff0a78, #b31964);
+  background-image: -ms-linear-gradient(top, #ff0a78, #b31964);
+  background-image: -o-linear-gradient(top, #ff0a78, #b31964);
+  background-image: linear-gradient(to bottom, #ff0a78, #b31964);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f7188f;
+  background-image: -webkit-linear-gradient(top, #f7188f, #b82e88);
+  background-image: -moz-linear-gradient(top, #f7188f, #b82e88);
+  background-image: -ms-linear-gradient(top, #f7188f, #b82e88);
+  background-image: -o-linear-gradient(top, #f7188f, #b82e88);
+  background-image: linear-gradient(to bottom, #f7188f, #b82e88);
+  text-decoration: none;
+}
+
+/*#7B00FF for favourite purple #ff0a78 #b31964
+#f7188f #b82e88*/
